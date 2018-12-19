@@ -52,7 +52,13 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
 		</dependency> 
-		
+		<!-- Neo4j -->
+		<dependency>
+			<groupId>org.neo4j.driver</groupId>
+			<artifactId>neo4j-java-driver</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
